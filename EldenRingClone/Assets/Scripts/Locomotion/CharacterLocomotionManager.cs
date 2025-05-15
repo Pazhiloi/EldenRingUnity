@@ -4,16 +4,11 @@ using UnityEngine;
 
 namespace MR
 {
-  public class CharacterManager : MonoBehaviour
+  public class CharacterLocomotionManager : MonoBehaviour
   {
-    protected virtual void Awake()
+    private void Awake()
     {
       DontDestroyOnLoad(this);
-    }
-
-    protected virtual void Update()
-    {
-
     }
   }
 }

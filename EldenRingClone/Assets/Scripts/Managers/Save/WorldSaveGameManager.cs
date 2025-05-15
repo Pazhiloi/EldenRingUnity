@@ -20,17 +20,16 @@ namespace MR
     }
 
 
-public IEnumerator LoadNewGame(){
-  AsyncOperation loadOperation = SceneManager.LoadSceneAsync(worldSceneIndex);
-  yield return null;
-}
+    public IEnumerator LoadNewGame()
+    {
+      AsyncOperation loadOperation = SceneManager.LoadSceneAsync(worldSceneIndex);
+      yield return null;
+    }
 
-
-
-
-
-
-
+    public int GetWorldSceneIndex()
+    {
+      return worldSceneIndex;
+    }
 
 
 
