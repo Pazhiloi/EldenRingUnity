@@ -1833,7 +1833,9 @@ GameObject:
   - component: {fileID: 4038907459195979307}
   - component: {fileID: -2160745140302975369}
   - component: {fileID: -2477569070354130310}
+  - component: {fileID: -170847718499043124}
   - component: {fileID: 5751290042618200171}
+  - component: {fileID: 6675727530896996165}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1911,6 +1913,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb86052c222ff142b1cfe8fa5403a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterController: {fileID: 0}
+--- !u!114 &-170847718499043124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7655818185582595930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ba77e2d41f2e14ca7977807729f538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkPosition:
+    m_InternalValue: {x: 0, y: 0, z: 0}
+  networkPositionVelocity: {x: 0, y: 0, z: 0}
+  networkPositionSmoothTime: 0.1
 --- !u!114 &5751290042618200171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1923,6 +1942,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff871852a3304642822006cc7a5817e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  verticalMovement: 0
+  horizontalMovement: 0
+  moveAmount: 0
+  walkingSpeed: 2
+  runningSpeed: 5
+--- !u!143 &6675727530896996165
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7655818185582595930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 1.8
+  m_Radius: 0.23
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &7676846371313485352
 GameObject:
   m_ObjectHideFlags: 0

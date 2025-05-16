@@ -16,6 +16,8 @@ namespace MR
     {
       base.Update();
 
+      if (!IsOwner) return;
+
       playerLocomotionManager.HandleAllMovement();
     }
 

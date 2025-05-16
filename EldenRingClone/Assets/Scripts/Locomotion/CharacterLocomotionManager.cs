@@ -6,9 +6,9 @@ namespace MR
 {
   public class CharacterLocomotionManager : MonoBehaviour
   {
-    private void Awake()
+    protected virtual void Awake()
     {
-      DontDestroyOnLoad(this);
+     
     }
   }
 }
