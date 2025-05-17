@@ -30,5 +30,12 @@ namespace MR
         transform.rotation = Quaternion.Slerp(transform.rotation, characterNetworkManager.networkRotation.Value, characterNetworkManager.networkRotationSmoothTime);
       }
     }
+
+    protected virtual void LateUpdate()
+    {
+
+    }
+    
+
   }
 }
