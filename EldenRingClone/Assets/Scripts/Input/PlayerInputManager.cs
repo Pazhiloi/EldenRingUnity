@@ -8,7 +8,7 @@ namespace MR
   public class PlayerInputManager : MonoBehaviour
   {
     public static PlayerInputManager instance;
-
+    public PlayerManager player;
 
     PlayerControls playerControls;
     [Header("PLAYER MOVEMENT INPUT")]
@@ -107,6 +107,11 @@ namespace MR
       {
         moveAmount = 1;
       }
+
+      if (player == null) return;
+     
+
+      player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount);
     }
 
     private void HandleCameraMovementInput()

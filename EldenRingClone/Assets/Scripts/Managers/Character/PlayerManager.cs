@@ -6,11 +6,13 @@ namespace MR
 {
   public class PlayerManager : CharacterManager
   {
-    PlayerLocomotionManager playerLocomotionManager;
+   [HideInInspector] public PlayerAnimatorManager playerAnimatorManager;
+   [HideInInspector] public PlayerLocomotionManager playerLocomotionManager;
     protected override void Awake()
     {
       base.Awake();
       playerLocomotionManager = GetComponent<PlayerLocomotionManager>();
+      playerAnimatorManager = GetComponent<PlayerAnimatorManager>();
     }
     protected override void Update()
     {
@@ -33,6 +35,7 @@ namespace MR
       if (IsOwner)
       {
         PlayerCamera.instance.player = this;
+        PlayerInputManager.instance.player = this;
       }
     }
 

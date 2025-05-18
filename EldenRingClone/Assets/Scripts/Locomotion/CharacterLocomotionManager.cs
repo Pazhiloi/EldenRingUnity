@@ -10,5 +10,9 @@ namespace MR
     {
      
     }
+    protected virtual void Update()
+    {
+     
+    }
   }
 }
