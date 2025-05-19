@@ -11,16 +11,18 @@ namespace MR
     public PlayerManager player;
 
     PlayerControls playerControls;
-    [Header("PLAYER MOVEMENT INPUT")]
-    [SerializeField] Vector2 movementInput;
-    public float verticalInput;
-    public float horizontalInput;
-    public float moveAmount;
     [Header("CAMERA MOVEMENT INPUT")]
     [SerializeField] Vector2 cameraInput;
 
     public float cameraVerticalInput;
     public float cameraHorizontalInput;
+    [Header("PLAYER MOVEMENT INPUT")]
+    [SerializeField] Vector2 movementInput;
+    public float verticalInput;
+    public float horizontalInput;
+    public float moveAmount;
+    [Header("PLAYER ACTION INPUT")]
+    [SerializeField] bool dodgeInput = false;
 
     private void Awake()
     {
@@ -58,6 +60,7 @@ namespace MR
         playerControls = new PlayerControls();
         playerControls.PlayerMovement.Movement.performed += i => movementInput = i.ReadValue<Vector2>();
         playerControls.PlayerCamera.Movement.performed += i => cameraInput = i.ReadValue<Vector2>();
+        playerControls.PlayerActions.Dodge.performed += i => dodgeInput = true;
       }
 
       playerControls.Enable();
@@ -86,9 +89,16 @@ namespace MR
     }
     private void Update()
     {
+      HandleAllInputs();
+    }
+
+    private void HandleAllInputs()
+    {
       HandleMovementInput();
       HandleCameraMovementInput();
+      HandleDodgeInput();
     }
+
 
     private void HandleMovementInput()
     {
@@ -109,7 +119,7 @@ namespace MR
       }
 
       if (player == null) return;
-     
+
 
       player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount);
     }
@@ -119,6 +129,17 @@ namespace MR
       cameraVerticalInput = cameraInput.y;
       cameraHorizontalInput = cameraInput.x;
     }
+    private void HandleDodgeInput()
+    {
+      if (dodgeInput)
+      {
+        dodgeInput = false;
+
+        player.playerLocomotionManager.AttemptToPerformDodge();
+      }
+    }
+
+    
 
 
 

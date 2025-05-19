@@ -15,7 +15,7 @@ D:/unity/courseProjects/EldenRingUnity/EldenRingClone
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51392
+53546
 Successfully changed project path to: D:/unity/courseProjects/EldenRingUnity/EldenRingClone
 D:/unity/courseProjects/EldenRingUnity/EldenRingClone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/unity/courseProjects/EldenRingUnity/EldenRingClone
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11480] Host "[IP] 172.27.208.1 [Port] 0 [Flags] 2 [Guid] 1362521261 [EditorId] 1362521261 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8THGS4J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6312] Host "[IP] 172.27.208.1 [Port] 0 [Flags] 2 [Guid] 767959814 [EditorId] 767959814 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8THGS4J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11480] Host "[IP] 172.27.208.1 [Port] 0 [Flags] 2 [Guid] 1362521261 [EditorId] 1362521261 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8THGS4J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6312] Host "[IP] 172.27.208.1 [Port] 0 [Flags] 2 [Guid] 767959814 [EditorId] 767959814 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8THGS4J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 17.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -78,47 +78,47 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.024392 seconds.
-- Loaded All Assemblies, in  1.708 seconds
+Registered in 0.028622 seconds.
+- Loaded All Assemblies, in  0.857 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 40967 ms
+Android Extension - Scanning For ADB Devices 3256 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 42.415 seconds
-Domain Reload Profiling: 44119ms
-	BeginReloadAssembly (318ms)
+- Finished resetting the current domain, in  6.759 seconds
+Domain Reload Profiling: 7610ms
+	BeginReloadAssembly (250ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (139ms)
-	LoadAllAssembliesAndSetupDomain (1140ms)
-		LoadAssemblies (316ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (250ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1132ms)
-			TypeCache.Refresh (1129ms)
-				TypeCache.ScanAssembly (1105ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (369ms)
+				TypeCache.ScanAssembly (331ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (42417ms)
+	FinalizeReload (6760ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (42193ms)
+		SetupLoadedEditorAssemblies (5949ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41451ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (3655ms)
+			SetLoadedEditorAssemblies (24ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (479ms)
-			ProcessInitializeOnLoadMethodAttributes (225ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (1011ms)
+			ProcessInitializeOnLoadMethodAttributes (1246ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,128 +126,157 @@ Domain Reload Profiling: 44119ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.339 seconds
-Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.796 seconds
+Refreshing native plugins compatible for Editor in 11.07 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.611 seconds
-Domain Reload Profiling: 3946ms
-	BeginReloadAssembly (433ms)
+- Finished resetting the current domain, in  1.403 seconds
+Domain Reload Profiling: 3190ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (1223ms)
+		LoadAssemblies (738ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (661ms)
+			TypeCache.Refresh (443ms)
+				TypeCache.ScanAssembly (402ms)
+			ScanForSourceGeneratedMonoScriptInfo (187ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1404ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1111ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (745ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5857 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (354.1 KB). Loaded Objects now: 6315.
+Memory consumption went from 223.7 MB to 223.4 MB.
+Total: 5.737600 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.620700 ms MarkObjects: 4.414300 ms  DeleteObjects: 0.275100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8501961.757819 seconds.
+  path: Assets/Scripts/Camera/PlayerCamera.cs
+  artifactKey: Guid(48dade96fab72b942abca94a385f7e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera/PlayerCamera.cs using Guid(48dade96fab72b942abca94a385f7e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef6f529642f44b7f032a11b9317d01d') in 0.002870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (290.7 KB). Loaded Objects now: 6315.
+Memory consumption went from 105.5 MB to 105.2 MB.
+Total: 4.566600 ms (FindLiveObjects: 0.480300 ms CreateObjectMapping: 0.608500 ms MarkObjects: 3.417000 ms  DeleteObjects: 0.059500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.572029 seconds.
+  path: Assets/PlayerControls.inputactions
+  artifactKey: Guid(63cb5cdc920e24d44bf020c056897933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControls.inputactions using Guid(63cb5cdc920e24d44bf020c056897933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32bfe3d8d0c8accb6af9edf059f3ff4') in 0.086851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.012 seconds
+Refreshing native plugins compatible for Editor in 10.09 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.455 seconds
+Domain Reload Profiling: 2463ms
+	BeginReloadAssembly (293ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (145ms)
-	LoadAllAssembliesAndSetupDomain (1640ms)
-		LoadAssemblies (941ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (578ms)
+		LoadAssemblies (648ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (959ms)
-			TypeCache.Refresh (538ms)
-				TypeCache.ScanAssembly (505ms)
-			ScanForSourceGeneratedMonoScriptInfo (403ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1611ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (55ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1456ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1226ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (162ms)
-			ProcessInitializeOnLoadAttributes (719ms)
-			ProcessInitializeOnLoadMethodAttributes (247ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 17.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5851 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (354.0 KB). Loaded Objects now: 6309.
-Memory consumption went from 223.3 MB to 222.9 MB.
-Total: 11.997200 ms (FindLiveObjects: 0.529800 ms CreateObjectMapping: 0.709900 ms MarkObjects: 10.490700 ms  DeleteObjects: 0.264800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8449638.603806 seconds.
-  path: Assets/Art/Animations/_Core/Locomotion
-  artifactKey: Guid(f758d8978e6abe34489807a981243200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/_Core/Locomotion using Guid(f758d8978e6abe34489807a981243200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab05b3a95f3dc16e358b2faa9f37baa') in 0.002744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.730 seconds
-Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.693 seconds
-Domain Reload Profiling: 2419ms
-	BeginReloadAssembly (218ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (439ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (77ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (46ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1694ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (965ms)
+		SetupLoadedEditorAssemblies (726ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (51ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (605ms)
-			ProcessInitializeOnLoadMethodAttributes (184ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5689 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (321.6 KB). Loaded Objects now: 6317.
-Memory consumption went from 193.6 MB to 193.3 MB.
-Total: 9.856500 ms (FindLiveObjects: 0.610000 ms CreateObjectMapping: 1.711300 ms MarkObjects: 7.382900 ms  DeleteObjects: 0.149700 ms)
+Unloading 5691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (322.7 KB). Loaded Objects now: 6320.
+Memory consumption went from 193.9 MB to 193.6 MB.
+Total: 4.047700 ms (FindLiveObjects: 0.430900 ms CreateObjectMapping: 0.538800 ms MarkObjects: 2.974600 ms  DeleteObjects: 0.102100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -264,714 +293,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 454.550559 seconds.
-  path: Assets/Assets
-  artifactKey: Guid(2736f7f8fb3ba5b4f919bea1f5f0bf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets using Guid(2736f7f8fb3ba5b4f919bea1f5f0bf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9fc42a6bb26eeaa1626c378f75211c') in 0.002584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.552698 seconds.
-  path: Assets/Assets/Nephilite Studios
-  artifactKey: Guid(d4c41391d8f4f45e68df90ab92a9b95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios using Guid(d4c41391d8f4f45e68df90ab92a9b95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ee634d3c8da4313bc4df73521b8fca') in 0.003914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.645624 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set
-  artifactKey: Guid(31413d5d21790864aa3e9d11001ddb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set using Guid(31413d5d21790864aa3e9d11001ddb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef07c4b5f127b4b3070583d090b9997') in 0.000969 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.354632 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations
-  artifactKey: Guid(1c1af587842ee534f9dbbad06b3e9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations using Guid(1c1af587842ee534f9dbbad06b3e9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114aebee4dfe37902670f713742d2804') in 0.000939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.330626 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core
-  artifactKey: Guid(ff57738eb5e733a4d943a41a2ebbb09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core using Guid(ff57738eb5e733a4d943a41a2ebbb09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8acf049c87f780f09dcaa385f2bee53') in 0.000854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.040903 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_back_step_medium_01.fbx
-  artifactKey: Guid(e55ef2f4572af804f9745df51162dfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_back_step_medium_01.fbx using Guid(e55ef2f4572af804f9745df51162dfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a411ab8a8d1cc4bffe822464b8ac817') in 0.054907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01.fbx
-  artifactKey: Guid(18edade5adf0d73458cddb1e89a382a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01.fbx using Guid(18edade5adf0d73458cddb1e89a382a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831d096e907424701875747796dafc30') in 0.008069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_BL_01.fbx
-  artifactKey: Guid(fcf07773009f078458fa464820254a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_BL_01.fbx using Guid(fcf07773009f078458fa464820254a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c69fe305b2b619df24ad3eeac111d2') in 0.009057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_BL_01.fbx
-  artifactKey: Guid(05b02d2a9c828cb4c9091099c55b2aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_BL_01.fbx using Guid(05b02d2a9c828cb4c9091099c55b2aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee33140b0181039693e77ade493257b') in 0.011637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01_end.fbx
-  artifactKey: Guid(3d4fc7495569b2a4caeb4f1dadcd1a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01_end.fbx using Guid(3d4fc7495569b2a4caeb4f1dadcd1a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b38fb08494782002431603dd75d03b') in 0.008368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_jump_01_idle.fbx
-  artifactKey: Guid(3f49e17024e35474c9004d830afedb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_jump_01_idle.fbx using Guid(3f49e17024e35474c9004d830afedb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea55040ba737ee11a3789f8f8229be7') in 0.007992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_BL_01.fbx
-  artifactKey: Guid(99094d1e4096e344085215af6bce9e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_BL_01.fbx using Guid(99094d1e4096e344085215af6bce9e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e1c6d75a03579067e344219e0beaa2') in 0.008671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_back_step_medium_01.fbx
-  artifactKey: Guid(623ab74fa92322544bfa1233e8f4349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_back_step_medium_01.fbx using Guid(623ab74fa92322544bfa1233e8f4349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d48b59a344ea75e97f8ee4580d8698') in 0.008754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_idle_01.fbx
-  artifactKey: Guid(91ff116f4e9361242927604c7566cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_idle_01.fbx using Guid(91ff116f4e9361242927604c7566cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113f9329d7329929486a4ac338374f82') in 0.009306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_hit_reaction_medium_f_01.fbx
-  artifactKey: Guid(d51cf48440b890947a54045969f386fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_hit_reaction_medium_f_01.fbx using Guid(d51cf48440b890947a54045969f386fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c78da463ff1ff0bf77f81f43d66c6c') in 0.009771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_FL_01.fbx
-  artifactKey: Guid(bbb4a993881eaac4f8fe7b6bb9c05e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_FL_01.fbx using Guid(bbb4a993881eaac4f8fe7b6bb9c05e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71e30f86adcb87a5d7a0034b4d7d245') in 0.010927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_idle_01.fbx
-  artifactKey: Guid(043a9bbfd7eba2b4ea869d7b06f60124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_idle_01.fbx using Guid(043a9bbfd7eba2b4ea869d7b06f60124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec6ab385aea58ee113c643dc1e2f15b') in 0.009934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_L_01.fbx
-  artifactKey: Guid(6fe7100e3f4069e40bae067d185433cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_L_01.fbx using Guid(6fe7100e3f4069e40bae067d185433cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb3accb9bb6ef4f9f46e7a382f8eccf') in 0.009669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_sprint_F_01.fbx
-  artifactKey: Guid(8034d5812252e934cb992ad3e2d539c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_sprint_F_01.fbx using Guid(8034d5812252e934cb992ad3e2d539c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52b059add870c8b69c4038a8abad19c') in 0.011239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_FR_01.fbx
-  artifactKey: Guid(cf061886a00f37541ade1d0c509fcfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_FR_01.fbx using Guid(cf061886a00f37541ade1d0c509fcfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9d0305075338b63f85dc16fe551387') in 0.009833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_slow_01_end.fbx
-  artifactKey: Guid(242d17aad83aa35479ae04fe11eb743b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_slow_01_end.fbx using Guid(242d17aad83aa35479ae04fe11eb743b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628de482f4e04dcbb60d9f355c6a35f3') in 0.009097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_jump_01_end.fbx
-  artifactKey: Guid(f33f4a1f12ee83442ba4e8bc17ddac06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_jump_01_end.fbx using Guid(f33f4a1f12ee83442ba4e8bc17ddac06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3e85345e5aecc0dcb8c142e1e6e797') in 0.009162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_sprint_to_stop_01_left.fbx
-  artifactKey: Guid(ff3e2cf0afbf9254a9dc6bd5c5578fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_sprint_to_stop_01_left.fbx using Guid(ff3e2cf0afbf9254a9dc6bd5c5578fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe0d06c6fd2641dadf3369e78924949') in 0.007394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_BR_01.fbx
-  artifactKey: Guid(c6fd285db89ad2c42a76b60684842422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_BR_01.fbx using Guid(c6fd285db89ad2c42a76b60684842422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99865e6a824127853902190afe7b098f') in 0.033328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_R_01.fbx
-  artifactKey: Guid(c4735aaec6208af40aee4c35ecdbe0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_R_01.fbx using Guid(c4735aaec6208af40aee4c35ecdbe0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f79a95af64a82d5b0de278ed96aab7') in 0.010013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01_lift.fbx
-  artifactKey: Guid(b2816a13ce2c1cf458966673c819fed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01_lift.fbx using Guid(b2816a13ce2c1cf458966673c819fed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfd2965f88153f39f1982438fe1de3d') in 0.008460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_R_01.fbx
-  artifactKey: Guid(821860e6e04dbd04ca5493ddad94d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_R_01.fbx using Guid(821860e6e04dbd04ca5493ddad94d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4463c5b8f511e8007edb87f608f51e6e') in 0.009302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01_idle.fbx
-  artifactKey: Guid(3269750ba5972884288ef4b83b4c9dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01_idle.fbx using Guid(3269750ba5972884288ef4b83b4c9dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81c8aed9ef113e9c1ad77ccfc08c73e') in 0.011439 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_FL_01.fbx
-  artifactKey: Guid(79b5bd7360c03524ca5385b65e9dd71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_FL_01.fbx using Guid(79b5bd7360c03524ca5385b65e9dd71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7589e57c9918193b03215d47d0c60e8b') in 0.008728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_roll_to_idle_F_01.fbx
-  artifactKey: Guid(316244d2030138147995d0a5460b0f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_roll_to_idle_F_01.fbx using Guid(316244d2030138147995d0a5460b0f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe8587ee54cd882e33ddde867b5dcf1') in 0.011577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_F_01.fbx
-  artifactKey: Guid(14ad04e1468f2a641b13e69b4eb7f77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_F_01.fbx using Guid(14ad04e1468f2a641b13e69b4eb7f77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797e468dd6796135915e3a9bc4f64d9c') in 0.008503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_FR_01.fbx
-  artifactKey: Guid(ea2ad15802f4e37408a0439bc45b7229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_FR_01.fbx using Guid(ea2ad15802f4e37408a0439bc45b7229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1dac84622583f410ed94530de07457') in 0.009360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_BR_01.fbx
-  artifactKey: Guid(c933872f3559e5747845669b159f6af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_BR_01.fbx using Guid(c933872f3559e5747845669b159f6af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e283ccd13d79675a12491c99cf8932') in 0.010811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_slow_01_start.fbx
-  artifactKey: Guid(0edfbca89ede26b4b839c6593072511a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_slow_01_start.fbx using Guid(0edfbca89ede26b4b839c6593072511a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604857060b9a1e6c07ee019fb5ae8182') in 0.008697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01_start.fbx
-  artifactKey: Guid(6d24279615e939c46913da6269c6ed5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_01_start.fbx using Guid(6d24279615e939c46913da6269c6ed5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d7d16c8c1da9208d21e66709b9441b') in 0.009861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_FL_01.fbx
-  artifactKey: Guid(d5a300443073c2c4e9ceae8f452ea9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_FL_01.fbx using Guid(d5a300443073c2c4e9ceae8f452ea9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a614ac966fd29298a02f5497c85cd03f') in 0.009413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_B_01.fbx
-  artifactKey: Guid(22449bd9ae3014d49b4619b4bea39715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_B_01.fbx using Guid(22449bd9ae3014d49b4619b4bea39715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f692688520380488da667aa97b5ff937') in 0.009995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_sprint_to_stop_01_right.fbx
-  artifactKey: Guid(a925aebdaaae045459e3dfccc2e7d8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_sprint_to_stop_01_right.fbx using Guid(a925aebdaaae045459e3dfccc2e7d8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d1765569002ced9748ac3908b4008b') in 0.009288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_hit_reaction_medium_B_01.fbx
-  artifactKey: Guid(f9c8680419d479d4699e58c8baf572a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_hit_reaction_medium_B_01.fbx using Guid(f9c8680419d479d4699e58c8baf572a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ab03c80510bb853983122b64a85684') in 0.012079 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_jump_01_lift.fbx
-  artifactKey: Guid(68ecfb431eaf7254880a15e5b24c093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_jump_01_lift.fbx using Guid(68ecfb431eaf7254880a15e5b24c093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fc1a0022a0990487388ee908c930bb') in 0.009221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_hit_reaction_medium_R_01.fbx
-  artifactKey: Guid(3f467d2fd3abc6543bd5dac1e21c7208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_hit_reaction_medium_R_01.fbx using Guid(3f467d2fd3abc6543bd5dac1e21c7208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a055e63992bb86c80a14f2e0176316eb') in 0.008927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_slow_01.fbx
-  artifactKey: Guid(c6f43aab74f1d3f4ca4e970a59e9e206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_jump_slow_01.fbx using Guid(c6f43aab74f1d3f4ca4e970a59e9e206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db2beae9aecdc05864051f39a79c052') in 0.010404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_L_01.fbx
-  artifactKey: Guid(6411f30ea182a3e4e96bd79360f6adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_L_01.fbx using Guid(6411f30ea182a3e4e96bd79360f6adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67edde4411e3e24158f912ffd81d648') in 0.009470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_hit_reaction_medium_L_01.fbx
-  artifactKey: Guid(38e1e54f8cc1cf142b1a77c42b234d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_hit_reaction_medium_L_01.fbx using Guid(38e1e54f8cc1cf142b1a77c42b234d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86776359fa0dc2ef1d263f909114644') in 0.009416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_jump_01_start.fbx
-  artifactKey: Guid(bd334e84440b10b4e935a64164d7601c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_jump_01_start.fbx using Guid(bd334e84440b10b4e935a64164d7601c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b94cd53a1cce944462b958d2adefac') in 0.009215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_B_01.fbx
-  artifactKey: Guid(657ac209f984ad44298bb07a235a51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_B_01.fbx using Guid(657ac209f984ad44298bb07a235a51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5354ed7d2e21afc9833a31e89f79bf1') in 0.010648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_F_01.fbx
-  artifactKey: Guid(510ee4ea594125544ac94ab8da9d7ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_F_01.fbx using Guid(510ee4ea594125544ac94ab8da9d7ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5810658d014e8b03c0e84c1ba9bbc18a') in 0.008574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_B_01.fbx
-  artifactKey: Guid(91b0300b13b339048877b1c904f2f819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_walk_B_01.fbx using Guid(91b0300b13b339048877b1c904f2f819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fd0fd4b7d40812588110972c3cff64') in 0.008645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_F_01.fbx
-  artifactKey: Guid(abbc2a453055ffc4d971309946a4c85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_run_F_01.fbx using Guid(abbc2a453055ffc4d971309946a4c85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9de18cb5707d14ab7f4219e0675259b') in 0.009232 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_BR_01.fbx
-  artifactKey: Guid(4cfb68205acb2ad428536318b3b3531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_BR_01.fbx using Guid(4cfb68205acb2ad428536318b3b3531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30434387ca2a6c26d21b3d720521cce5') in 0.016573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.250772 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_FR_01.fbx
-  artifactKey: Guid(6f1494fef98db5f4aa000d087b054afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_FR_01.fbx using Guid(6f1494fef98db5f4aa000d087b054afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fb2bf271f317e6fbb770227958a5eb') in 0.012653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_L_01.fbx
-  artifactKey: Guid(f434ad5f43e509a45bf0ef9a0978fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_L_01.fbx using Guid(f434ad5f43e509a45bf0ef9a0978fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1647bfef530a64be167cb83aad6617') in 0.010756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_F_01.fbx
-  artifactKey: Guid(93a4ec6288213534ca9d45ace85cff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_F_01.fbx using Guid(93a4ec6288213534ca9d45ace85cff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9d1c4e808c31997b15a48260bbf1e9') in 0.010682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_sprint_F_01.fbx
-  artifactKey: Guid(7d0503acf61371448a2f951c41f71710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_sprint_F_01.fbx using Guid(7d0503acf61371448a2f951c41f71710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7017b49da1ba570d49d0c1346d3909fe') in 0.009212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_BR_01.fbx
-  artifactKey: Guid(70146f356e1a26f4180a78ea3ec99c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_BR_01.fbx using Guid(70146f356e1a26f4180a78ea3ec99c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0543e1640c65320ec526a4941356725') in 0.008965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_FR_01.fbx
-  artifactKey: Guid(73adb10bbd3061f4aa60c2c8272154da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_FR_01.fbx using Guid(73adb10bbd3061f4aa60c2c8272154da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a6befe94bb4b6a6ef4cdac2616264e') in 0.010032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_FL_01.fbx
-  artifactKey: Guid(383f345e75dd33d4a9ebf4f800c49d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_FL_01.fbx using Guid(383f345e75dd33d4a9ebf4f800c49d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a56a5e195258bc12f49e5e6be6bf939') in 0.009231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_R_01.fbx
-  artifactKey: Guid(456ccdfdbab4c57408fd7b426e56c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_R_01.fbx using Guid(456ccdfdbab4c57408fd7b426e56c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08630f52ce26d286e7f2c78623c4fc2') in 0.009092 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_BL_01.fbx
-  artifactKey: Guid(1a67139484ddceb4abe01e17d2fb674a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_BL_01.fbx using Guid(1a67139484ddceb4abe01e17d2fb674a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f892bf65405cad15ee741515f5391bf2') in 0.009893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.001563 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_B_01.fbx
-  artifactKey: Guid(23bb89d2e8134df43a52c0748c51cade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_B_01.fbx using Guid(23bb89d2e8134df43a52c0748c51cade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cd153b29edd295a3c8cae848e72100') in 0.010711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_L_01.fbx
-  artifactKey: Guid(192034287c629f5468f1be6c1aca801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_walk_L_01.fbx using Guid(192034287c629f5468f1be6c1aca801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa4c8d26acbc58113fa3ec291bcc1e8') in 0.024568 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_R_01.fbx
-  artifactKey: Guid(141b5bf284ad1684fba04d6cba573279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_th_run_R_01.fbx using Guid(141b5bf284ad1684fba04d6cba573279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112f4037172d4eca928d5765a7ea6b8b') in 0.010246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 128.046834 seconds.
-  path: Assets/Data/Animator Controllers
-  artifactKey: Guid(3ed0c48e1d194e74087e04500e84f1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animator Controllers using Guid(3ed0c48e1d194e74087e04500e84f1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6db631ac4a69a434c2dc8fcb28c9b9') in 0.000993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.257067 seconds.
-  path: Assets/Data/Animator Controllers/New Animator Controller.controller
-  artifactKey: Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animator Controllers/New Animator Controller.controller using Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86a747af27ec540738b2c3ef4d6594a') in 0.015188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.605455 seconds.
-  path: Assets/Data/Animator Controllers/Humanoid.controller
-  artifactKey: Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animator Controllers/Humanoid.controller using Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d610d092ea2ab120e2d6e4842261e8') in 0.001581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 28.814683 seconds.
-  path: Assets/Data/Prefabs/Player.prefab
-  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed65f7dd0fe359131e8aea1a62039933') in 7.347021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 154
-========================================================================
-Received Import Request.
-  Time since last request: 24.394783 seconds.
-  path: Assets/Data/Animator Controllers/Humanoid.controller
-  artifactKey: Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animator Controllers/Humanoid.controller using Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046b5cc3d1652adf9d50e4e3040e7866') in 0.002595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 129.885240 seconds.
-  path: Assets/Data/Animator Controllers/Humanoid.controller
-  artifactKey: Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animator Controllers/Humanoid.controller using Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001497165976e429212243c5c2c6d02c') in 0.002671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 5.274357 seconds.
-  path: Assets/Data/Animator Controllers/Humanoid.controller
-  artifactKey: Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animator Controllers/Humanoid.controller using Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b63a68474b0af3adca8ca594423838') in 0.001541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 88.529702 seconds.
-  path: Assets/Art/Animations
-  artifactKey: Guid(95aa02664c9ba514392152d11497e38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations using Guid(95aa02664c9ba514392152d11497e38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83a97cd60a8415240c60f9890a6a6b4') in 0.002810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.420682 seconds.
-  path: Assets/Art/Animations/_Core
-  artifactKey: Guid(22d8643fb480d8742a4dde17fdff912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/_Core using Guid(22d8643fb480d8742a4dde17fdff912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aab7bdba26b574163de479a4c7ef610') in 0.000778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1452.254884 seconds.
-  path: Assets/Scripts/Animator
-  artifactKey: Guid(ad9111d49d1fc714c8075a7af1ce0ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Animator using Guid(ad9111d49d1fc714c8075a7af1ce0ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadb6576452df64f65cac5481d73439d') in 0.001850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.855915 seconds.
-  path: Assets/Scripts/Animator/CharacterAnimatorManager.cs
-  artifactKey: Guid(43f726f536055be4da5d57d32174f896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Animator/CharacterAnimatorManager.cs using Guid(43f726f536055be4da5d57d32174f896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e62af5a4df587e5c59429b5ca8408c') in 0.000993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.833 seconds
-Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.031 seconds
+Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.603 seconds
-Domain Reload Profiling: 2431ms
-	BeginReloadAssembly (242ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (460ms)
-		LoadAssemblies (522ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (63ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1603ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (825ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (503ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 6.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5690 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (321.6 KB). Loaded Objects now: 6368.
-Memory consumption went from 198.4 MB to 198.1 MB.
-Total: 5.567500 ms (FindLiveObjects: 0.554600 ms CreateObjectMapping: 0.354500 ms MarkObjects: 4.511800 ms  DeleteObjects: 0.145000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 131.509260 seconds.
-  path: Assets/Scripts/Animator/PlayerAnimatorManager.cs
-  artifactKey: Guid(f905641c311d25842bed86ef77ef87da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Animator/PlayerAnimatorManager.cs using Guid(f905641c311d25842bed86ef77ef87da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e353d68bd864c689555504c53eab6fd2') in 0.007877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.766 seconds
-Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.300 seconds
-Domain Reload Profiling: 2062ms
-	BeginReloadAssembly (258ms)
+- Finished resetting the current domain, in  1.692 seconds
+Domain Reload Profiling: 2718ms
+	BeginReloadAssembly (281ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (396ms)
-		LoadAssemblies (453ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (658ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (75ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (4ms)
-			ScanForSourceGeneratedMonoScriptInfo (39ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1301ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (56ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (1693ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (660ms)
+		SetupLoadedEditorAssemblies (904ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
+			InitializePlatformSupportModulesInManaged (55ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (392ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (592ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5691 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (321.6 KB). Loaded Objects now: 6373.
-Memory consumption went from 198.4 MB to 198.1 MB.
-Total: 4.409900 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.239000 ms MarkObjects: 3.629400 ms  DeleteObjects: 0.114100 ms)
+Unloading 44 unused Assets / (321.8 KB). Loaded Objects now: 6324.
+Memory consumption went from 193.9 MB to 193.6 MB.
+Total: 4.082400 ms (FindLiveObjects: 0.430600 ms CreateObjectMapping: 0.560200 ms MarkObjects: 2.978600 ms  DeleteObjects: 0.111300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -990,54 +361,194 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.993 seconds
-Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.452 seconds
+Refreshing native plugins compatible for Editor in 6.51 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.677 seconds
-Domain Reload Profiling: 2665ms
-	BeginReloadAssembly (308ms)
+- Finished resetting the current domain, in  1.851 seconds
+Domain Reload Profiling: 3292ms
+	BeginReloadAssembly (576ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (92ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (172ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (723ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (712ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.7 KB). Loaded Objects now: 6328.
+Memory consumption went from 193.9 MB to 193.6 MB.
+Total: 4.494800 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.244500 ms MarkObjects: 3.696400 ms  DeleteObjects: 0.130600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 776.716914 seconds.
+  path: Assets/Data/Animator Controllers/Humanoid.controller
+  artifactKey: Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animator Controllers/Humanoid.controller using Guid(73a24060f5ef14f47be9eb7840409ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3346727fefdaa564c2891de8f0503418') in 0.056704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.423 seconds
+Refreshing native plugins compatible for Editor in 8.57 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.881 seconds
+Domain Reload Profiling: 3300ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (260ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (731ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (60ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1882ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (739ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (86ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5692 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.7 KB). Loaded Objects now: 6333.
+Memory consumption went from 194.0 MB to 193.6 MB.
+Total: 4.057500 ms (FindLiveObjects: 0.422800 ms CreateObjectMapping: 0.241900 ms MarkObjects: 3.288800 ms  DeleteObjects: 0.102500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.188 seconds
+Refreshing native plugins compatible for Editor in 6.50 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.796 seconds
+Domain Reload Profiling: 2980ms
+	BeginReloadAssembly (449ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (518ms)
-		LoadAssemblies (611ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (543ms)
+		LoadAssemblies (777ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (78ms)
-			TypeCache.Refresh (16ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (13ms)
 				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (40ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1677ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1797ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (729ms)
+		SetupLoadedEditorAssemblies (959ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (51ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (440ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 6.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5691 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (321.7 KB). Loaded Objects now: 6377.
-Memory consumption went from 198.4 MB to 198.1 MB.
-Total: 5.189200 ms (FindLiveObjects: 0.554800 ms CreateObjectMapping: 1.038300 ms MarkObjects: 3.410500 ms  DeleteObjects: 0.184000 ms)
+Unloading 5692 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.8 KB). Loaded Objects now: 6337.
+Memory consumption went from 193.9 MB to 193.6 MB.
+Total: 4.300600 ms (FindLiveObjects: 0.436600 ms CreateObjectMapping: 0.596200 ms MarkObjects: 3.125000 ms  DeleteObjects: 0.141600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1054,72 +565,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1575.711750 seconds.
-  path: Assets/Scripts/Animator/PlayerAnimatorManager.cs
-  artifactKey: Guid(f905641c311d25842bed86ef77ef87da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Animator/PlayerAnimatorManager.cs using Guid(f905641c311d25842bed86ef77ef87da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34fab50215b8c85343a1f96789f954c') in 0.004024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.432218 seconds.
-  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Models/Md_Char_Low_Poly_Man.fbx
-  artifactKey: Guid(0ad932253e8dc8841948afa5d1a0d051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Models/Md_Char_Low_Poly_Man.fbx using Guid(0ad932253e8dc8841948afa5d1a0d051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770975045e4365679544a01c062e4003') in 0.594083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 148
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.728 seconds
-Refreshing native plugins compatible for Editor in 6.88 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.189 seconds
+Refreshing native plugins compatible for Editor in 33.86 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.590 seconds
-Domain Reload Profiling: 6310ms
-	BeginReloadAssembly (655ms)
+- Finished resetting the current domain, in  1.620 seconds
+Domain Reload Profiling: 2778ms
+	BeginReloadAssembly (290ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (228ms)
-	RebuildCommonClasses (61ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (82ms)
 	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (1900ms)
-		LoadAssemblies (1993ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (703ms)
+		LoadAssemblies (770ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (162ms)
-			TypeCache.Refresh (49ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (88ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (44ms)
 			ResolveRequiredComponents (24ms)
-	FinalizeReload (3591ms)
+	FinalizeReload (1621ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2187ms)
+		SetupLoadedEditorAssemblies (771ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (64ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (141ms)
-			ProcessInitializeOnLoadAttributes (1649ms)
-			ProcessInitializeOnLoadMethodAttributes (298ms)
-			AfterProcessingInitializeOnLoad (25ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (500ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (142ms)
-Refreshing native plugins compatible for Editor in 9.97 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5691 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (321.7 KB). Loaded Objects now: 6453.
-Memory consumption went from 198.9 MB to 198.6 MB.
-Total: 7.058200 ms (FindLiveObjects: 0.627600 ms CreateObjectMapping: 0.693200 ms MarkObjects: 5.521700 ms  DeleteObjects: 0.213600 ms)
+Unloading 5692 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.8 KB). Loaded Objects now: 6341.
+Memory consumption went from 193.9 MB to 193.6 MB.
+Total: 4.570000 ms (FindLiveObjects: 0.426900 ms CreateObjectMapping: 0.559300 ms MarkObjects: 3.423800 ms  DeleteObjects: 0.158300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1137,9 +632,713 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 582.870400 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.006851 seconds
+  Time since last request: 598.546635 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad120ac9ceaa96ab56fa8d334e837f7b') in 0.471780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 3.685991 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbfc67a3952692cb3e6da215b2a6400') in 0.065064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 284
+========================================================================
+Received Import Request.
+  Time since last request: 3.686344 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b820eb8f79772e3111b6eee0f62c7d76') in 0.055999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 284
+========================================================================
+Received Import Request.
+  Time since last request: 4.098933 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6de186ddb183570179aeabac566c745') in 0.099706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 284
+========================================================================
+Received Import Request.
+  Time since last request: 17.459131 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9079904f91c168b6bcec52d69f0cb7ef') in 0.105558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 284
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.939 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.601 seconds
+Domain Reload Profiling: 3537ms
+	BeginReloadAssembly (1061ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (65ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (487ms)
+	RebuildCommonClasses (318ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (728ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (68ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1602ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (759ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 6.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5692 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.9 KB). Loaded Objects now: 6390.
+Memory consumption went from 196.2 MB to 195.9 MB.
+Total: 5.182700 ms (FindLiveObjects: 0.440200 ms CreateObjectMapping: 0.645500 ms MarkObjects: 3.984300 ms  DeleteObjects: 0.111600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.042 seconds
+Refreshing native plugins compatible for Editor in 5.85 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.650 seconds
+Domain Reload Profiling: 2687ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (619ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1650ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (816ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (499ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5692 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.9 KB). Loaded Objects now: 6394.
+Memory consumption went from 196.2 MB to 195.8 MB.
+Total: 3.715300 ms (FindLiveObjects: 0.425300 ms CreateObjectMapping: 0.265900 ms MarkObjects: 2.923200 ms  DeleteObjects: 0.099700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 776.130210 seconds.
+  path: Assets/Scripts/Managers/Sound
+  artifactKey: Guid(dbccc4d751396f74992519549791109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Sound using Guid(dbccc4d751396f74992519549791109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91789655c64245376fc6f3aa7b3494a') in 0.005213 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.667578 seconds.
+  path: Assets/Scripts/Managers/Sound/CharacterSoundFXManager.cs
+  artifactKey: Guid(a90aeea434159684b995e096434e63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Sound/CharacterSoundFXManager.cs using Guid(a90aeea434159684b995e096434e63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc15073cd4bcbda980571e2b465845d') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.805 seconds
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.333 seconds
+Domain Reload Profiling: 2132ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (450ms)
+		LoadAssemblies (507ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1333ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (669ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 9.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5693 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.5 KB). Loaded Objects now: 6399.
+Memory consumption went from 196.2 MB to 195.9 MB.
+Total: 5.245000 ms (FindLiveObjects: 0.550900 ms CreateObjectMapping: 0.728700 ms MarkObjects: 3.850400 ms  DeleteObjects: 0.113500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.185807 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f34a42acfa4af44b8dee489ae47752') in 0.871391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 7.558443 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f22b400637f9de9a9c3bbfe30a5d7f1') in 0.077307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 291
+========================================================================
+Received Import Request.
+  Time since last request: 3.767572 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56ad6565669f1347898f81879b29241') in 0.090150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 291
+========================================================================
+Received Import Request.
+  Time since last request: 41.438876 seconds.
+  path: Assets/Scripts/Managers/Sound/CharacterSoundFXManager.cs
+  artifactKey: Guid(a90aeea434159684b995e096434e63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Sound/CharacterSoundFXManager.cs using Guid(a90aeea434159684b995e096434e63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6349fe20b92c0e04d8142d51a6e67') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.643352 seconds.
+  path: Assets/Scripts/Managers/Sound/PlayerSoundFXManager.cs
+  artifactKey: Guid(13d396838acf51e43ae9af4003944c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Sound/PlayerSoundFXManager.cs using Guid(13d396838acf51e43ae9af4003944c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910adc5837b0b7e5605932a38a1d79e8') in 0.002881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.274 seconds
+Refreshing native plugins compatible for Editor in 7.65 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.444 seconds
+Domain Reload Profiling: 4714ms
+	BeginReloadAssembly (352ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (65ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (787ms)
+		LoadAssemblies (640ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (216ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (3445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (843ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 6.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5694 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.4 KB). Loaded Objects now: 6440.
+Memory consumption went from 196.4 MB to 196.0 MB.
+Total: 16.164400 ms (FindLiveObjects: 2.061400 ms CreateObjectMapping: 2.706000 ms MarkObjects: 9.822100 ms  DeleteObjects: 1.571500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.272919 seconds.
+  path: Assets/Scripts/Managers/Sound/PlayerSoundFXManager.cs
+  artifactKey: Guid(13d396838acf51e43ae9af4003944c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Sound/PlayerSoundFXManager.cs using Guid(13d396838acf51e43ae9af4003944c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39df91119c2b4f24e1e46a2ed1b41a5') in 0.005624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.216496 seconds.
+  path: Assets/Scripts/Managers/Sound/WorldSoundFXManager.cs
+  artifactKey: Guid(87a1557f609e59140bd931ce3bae1096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Sound/WorldSoundFXManager.cs using Guid(87a1557f609e59140bd931ce3bae1096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57429da5a980be560b093728d053fc6') in 0.001355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.775 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.117 seconds
+Domain Reload Profiling: 2888ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2117ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1286ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (943ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5695 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (322.0 KB). Loaded Objects now: 6445.
+Memory consumption went from 196.3 MB to 196.0 MB.
+Total: 4.516300 ms (FindLiveObjects: 0.639300 ms CreateObjectMapping: 0.834000 ms MarkObjects: 2.935600 ms  DeleteObjects: 0.106300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.639 seconds
+Refreshing native plugins compatible for Editor in 7.41 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.257 seconds
+Domain Reload Profiling: 3878ms
+	BeginReloadAssembly (454ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (161ms)
+	RebuildNativeTypeToScriptingClass (67ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (844ms)
+		LoadAssemblies (1048ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (958ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (29ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5695 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.8 KB). Loaded Objects now: 6449.
+Memory consumption went from 196.3 MB to 196.0 MB.
+Total: 4.492800 ms (FindLiveObjects: 0.580700 ms CreateObjectMapping: 0.700900 ms MarkObjects: 3.098300 ms  DeleteObjects: 0.111900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 368.029311 seconds.
+  path: Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_roll_to_idle_F_01.fbx
+  artifactKey: Guid(316244d2030138147995d0a5460b0f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Nephilite Studios/Straight Sword Animation Set/Animations/core/core_main_roll_to_idle_F_01.fbx using Guid(316244d2030138147995d0a5460b0f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d3faa4a71d7d40ab68b81594cd2749') in 0.122820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Import Request.
+  Time since last request: 13.582196 seconds.
+  path: Assets/Art/Fonts 1
+  artifactKey: Guid(093fb7b98665fb54ea9d583f0386d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fonts 1 using Guid(093fb7b98665fb54ea9d583f0386d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75443efa083af2df4142f3579359bda') in 0.001179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.293172 seconds.
+  path: Assets/Art/Audio
+  artifactKey: Guid(093fb7b98665fb54ea9d583f0386d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Audio using Guid(093fb7b98665fb54ea9d583f0386d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901e007c2a9437e6ef3e8fae291918d0') in 0.000897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.781192 seconds.
+  path: Assets/Art/Audio/Audio
+  artifactKey: Guid(e3e827c90870c704fae8028eefbd83d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Audio/Audio using Guid(e3e827c90870c704fae8028eefbd83d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b263dfdb0ae5ff1f82393f1bc9048') in 0.000908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.241973 seconds.
+  path: Assets/Art/Audio/Sound FX
+  artifactKey: Guid(e3e827c90870c704fae8028eefbd83d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Audio/Sound FX using Guid(e3e827c90870c704fae8028eefbd83d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61725b9006394f3a449849be1fcf9ff') in 0.001057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.380181 seconds.
+  path: Assets/Art/Audio/Sound FX/Actions
+  artifactKey: Guid(3311f1dee183e8941bed9d97b077eb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Audio/Sound FX/Actions using Guid(3311f1dee183e8941bed9d97b077eb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab01546ec7ef85384fa8e4e09ece639') in 0.010056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 226.328946 seconds.
+  path: Assets/Data/Prefabs/World Managers/World Sound FX Manager.prefab
+  artifactKey: Guid(2dadb50138dbae8449ca1649a0357fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/World Managers/World Sound FX Manager.prefab using Guid(2dadb50138dbae8449ca1649a0357fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf0d5cfa604e2c70be686921588a718') in 0.011551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 12.116194 seconds.
+  path: Assets/Data/Prefabs/Player.prefab
+  artifactKey: Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Player.prefab using Guid(e275273681d5ee54bba4480a953312fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7fcf5e76ef4164c06cd214db96f108') in 0.626078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 186
+========================================================================
+Received Import Request.
+  Time since last request: 299.344405 seconds.
+  path: Assets/PlayerControls.inputactions
+  artifactKey: Guid(63cb5cdc920e24d44bf020c056897933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControls.inputactions using Guid(63cb5cdc920e24d44bf020c056897933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94742be88de3718e077b65a9ae34a305') in 0.010267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.819 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.473 seconds
+Domain Reload Profiling: 2288ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (498ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (691ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (434ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5695 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (322.0 KB). Loaded Objects now: 6489.
+Memory consumption went from 196.5 MB to 196.2 MB.
+Total: 4.372900 ms (FindLiveObjects: 0.462500 ms CreateObjectMapping: 0.661200 ms MarkObjects: 3.091000 ms  DeleteObjects: 0.157100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.522 seconds
+Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.622 seconds
+Domain Reload Profiling: 6138ms
+	BeginReloadAssembly (312ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (928ms)
+		LoadAssemblies (949ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (4623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (297ms)
+			ProcessInitializeOnLoadAttributes (1438ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 15.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5695 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (321.9 KB). Loaded Objects now: 6493.
+Memory consumption went from 196.4 MB to 196.1 MB.
+Total: 12.701400 ms (FindLiveObjects: 1.232600 ms CreateObjectMapping: 3.575300 ms MarkObjects: 7.690400 ms  DeleteObjects: 0.201100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
