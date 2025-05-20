@@ -16,6 +16,7 @@ namespace MR
     private Vector3 targetRotationDirection;
     [SerializeField] float walkingSpeed = 2;
     [SerializeField] float runningSpeed = 5;
+    [SerializeField] float sprintingingSpeed = 6.5f;
     [SerializeField] float rotationSpeed = 15;
 
     [Header("Dodge")]
@@ -42,7 +43,7 @@ namespace MR
         moveAmount = player.characterNetworkManager.moveAmount.Value;
 
         // IF NOT LOCKED ON, PASS MOVE AMOUNT
-        player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount);
+        player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount, player.playerNetworkManager.isSprinting.Value);
 
         // IF LOCKED ON, PASS HORZ AND VERT
         // player.playerAnimatorManager.UpdateAnimatorMovementParameters(horizontalMovement, verticalMovement);
@@ -72,20 +73,28 @@ namespace MR
       moveDirection.Normalize();
       moveDirection.y = 0;
 
-      if (PlayerInputManager.instance.moveAmount > 0.5f)
+      if (player.playerNetworkManager.isSprinting.Value)
       {
-        player.characterController.Move(moveDirection * runningSpeed * Time.deltaTime);
+        player.characterController.Move(moveDirection * sprintingingSpeed * Time.deltaTime);
       }
-      else if (PlayerInputManager.instance.moveAmount <= 0.5f)
+      else
       {
-        player.characterController.Move(moveDirection * walkingSpeed * Time.deltaTime);
+        if (PlayerInputManager.instance.moveAmount > 0.5f)
+        {
+          player.characterController.Move(moveDirection * runningSpeed * Time.deltaTime);
+        }
+        else if (PlayerInputManager.instance.moveAmount <= 0.5f)
+        {
+          player.characterController.Move(moveDirection * walkingSpeed * Time.deltaTime);
+        }
       }
+      
     }
 
     private void HandleRotation()
     {
       if (!player.canRotate) return;
-      
+
       targetRotationDirection = Vector3.zero;
       targetRotationDirection = PlayerCamera.instance.cameraObject.transform.forward * verticalMovement;
       targetRotationDirection += PlayerCamera.instance.cameraObject.transform.right * horizontalMovement;
@@ -101,6 +110,26 @@ namespace MR
       Quaternion targetRotation = Quaternion.Slerp(transform.rotation, newRotation, rotationSpeed * Time.deltaTime);
       transform.rotation = targetRotation;
     }
+
+    public void HandleSprinting()
+    {
+      if (player.isPerformingAction)
+      {
+        player.playerNetworkManager.isSprinting.Value = false;
+      }
+
+      if (moveAmount >= 0.5f)
+      {
+        player.playerNetworkManager.isSprinting.Value = true;
+      }
+      // IF WE ARE STATIONARY/MOVING SLOWLY SPRINTING IS FALSE
+      else
+      {
+        player.playerNetworkManager.isSprinting.Value = false;
+      }
+
+    }
+
 
     public void AttemptToPerformDodge()
     {

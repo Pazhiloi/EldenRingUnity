@@ -23,6 +23,7 @@ namespace MR
     public float moveAmount;
     [Header("PLAYER ACTION INPUT")]
     [SerializeField] bool dodgeInput = false;
+    [SerializeField] bool sprintInput = false;
 
     private void Awake()
     {
@@ -61,6 +62,8 @@ namespace MR
         playerControls.PlayerMovement.Movement.performed += i => movementInput = i.ReadValue<Vector2>();
         playerControls.PlayerCamera.Movement.performed += i => cameraInput = i.ReadValue<Vector2>();
         playerControls.PlayerActions.Dodge.performed += i => dodgeInput = true;
+        playerControls.PlayerActions.Sprint.performed += i => sprintInput = true;
+        playerControls.PlayerActions.Sprint.canceled += i => sprintInput = false;
       }
 
       playerControls.Enable();
@@ -97,6 +100,7 @@ namespace MR
       HandleMovementInput();
       HandleCameraMovementInput();
       HandleDodgeInput();
+      HandleSprinting();
     }
 
 
@@ -121,7 +125,7 @@ namespace MR
       if (player == null) return;
 
 
-      player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount);
+      player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount, player.playerNetworkManager.isSprinting.Value);
     }
 
     private void HandleCameraMovementInput()
@@ -138,8 +142,18 @@ namespace MR
         player.playerLocomotionManager.AttemptToPerformDodge();
       }
     }
+    private void HandleSprinting()
+    {
+      if (sprintInput)
+      {
+        player.playerLocomotionManager.HandleSprinting();
+      }
+      else
+      {
+        player.playerNetworkManager.isSprinting.Value = false;
+      }
+    }
 
-    
 
 
 
