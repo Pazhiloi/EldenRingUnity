@@ -18,9 +18,11 @@ namespace MR
     [SerializeField] float runningSpeed = 5;
     [SerializeField] float sprintingingSpeed = 6.5f;
     [SerializeField] float rotationSpeed = 15;
+    [SerializeField] int sprintingStaminaCost = 2;
 
     [Header("Dodge")]
     private Vector3 rollDirection;
+    [SerializeField] private float dodgeStaminaCost = 25f;
     protected override void Awake()
     {
       base.Awake();
@@ -88,7 +90,7 @@ namespace MR
           player.characterController.Move(moveDirection * walkingSpeed * Time.deltaTime);
         }
       }
-      
+
     }
 
     private void HandleRotation()
@@ -118,6 +120,12 @@ namespace MR
         player.playerNetworkManager.isSprinting.Value = false;
       }
 
+      if (player.playerNetworkManager.currentStamina.Value <= 0)
+      {
+        player.playerNetworkManager.isSprinting.Value = false;
+        return;
+      }
+
       if (moveAmount >= 0.5f)
       {
         player.playerNetworkManager.isSprinting.Value = true;
@@ -128,12 +136,20 @@ namespace MR
         player.playerNetworkManager.isSprinting.Value = false;
       }
 
+      if (player.playerNetworkManager.isSprinting.Value)
+      {
+        player.playerNetworkManager.currentStamina.Value -= sprintingStaminaCost * Time.deltaTime;
+      }
+
     }
 
 
     public void AttemptToPerformDodge()
     {
       if (player.isPerformingAction) return;
+
+      if (player.playerNetworkManager.currentStamina.Value <= 0) return;
+
       // IF WE ARE MOVING WHEN WE ATTEMPT TO DODGE, WE PERFORM A ROLL
       if (PlayerInputManager.instance.moveAmount > 0)
       {
@@ -150,6 +166,8 @@ namespace MR
       {
         player.playerAnimatorManager.PlayTargetActionAnimation("Back_Step_01", true, true);
       }
+
+      player.playerNetworkManager.currentStamina.Value -= dodgeStaminaCost;
     }
 
   }

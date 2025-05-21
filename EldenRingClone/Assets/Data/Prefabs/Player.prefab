@@ -1834,12 +1834,12 @@ GameObject:
   - component: {fileID: -2160745140302975369}
   - component: {fileID: 5057575171163002075}
   - component: {fileID: -2477569070354130310}
-  - component: {fileID: -170847718499043124}
   - component: {fileID: 5751290042618200171}
   - component: {fileID: 2230566287613835559}
   - component: {fileID: 676302120904799358}
   - component: {fileID: 6675727530896996165}
   - component: {fileID: 5584563392348931737}
+  - component: {fileID: 8827907532727456827}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1917,6 +1917,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 862d673b4a9d1f541b0740b9dbda1039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  staminaRegenerationAmount: 2
+  staminaRegenerationDelay: 2
 --- !u!114 &-2477569070354130310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1940,39 +1942,6 @@ MonoBehaviour:
   playerLocomotionManager: {fileID: 0}
   playerNetworkManager: {fileID: 0}
   playerStatsManager: {fileID: 0}
---- !u!114 &-170847718499043124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7655818185582595930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3ba77e2d41f2e14ca7977807729f538, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  networkPosition:
-    m_InternalValue: {x: 0, y: 0, z: 0}
-  networkRotation:
-    m_InternalValue: {x: 0, y: 0, z: 0, w: 1}
-  networkPositionVelocity: {x: 0, y: 0, z: 0}
-  networkPositionSmoothTime: 0.1
-  networkRotationSmoothTime: 0.1
-  horizontalMovement:
-    m_InternalValue: 0
-  verticalMovement:
-    m_InternalValue: 0
-  moveAmount:
-    m_InternalValue: 0
-  isSprinting:
-    m_InternalValue: 0
-  endurance:
-    m_InternalValue: 1
-  currentStamina:
-    m_InternalValue: 0
-  maxStamina:
-    m_InternalValue: 0
 --- !u!114 &5751290042618200171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1992,6 +1961,8 @@ MonoBehaviour:
   runningSpeed: 3.5
   sprintingingSpeed: 6.5
   rotationSpeed: 15
+  sprintingStaminaCost: 2
+  dodgeStaminaCost: 25
 --- !u!114 &2230566287613835559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2138,6 +2109,39 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8827907532727456827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7655818185582595930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ba77e2d41f2e14ca7977807729f538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkPosition:
+    m_InternalValue: {x: 0, y: 0, z: 0}
+  networkRotation:
+    m_InternalValue: {x: 0, y: 0, z: 0, w: 1}
+  networkPositionVelocity: {x: 0, y: 0, z: 0}
+  networkPositionSmoothTime: 0.1
+  networkRotationSmoothTime: 0.1
+  horizontalMovement:
+    m_InternalValue: 0
+  verticalMovement:
+    m_InternalValue: 0
+  moveAmount:
+    m_InternalValue: 0
+  isSprinting:
+    m_InternalValue: 0
+  endurance:
+    m_InternalValue: 1
+  currentStamina:
+    m_InternalValue: 0
+  maxStamina:
+    m_InternalValue: 0
 --- !u!1 &7676846371313485352
 GameObject:
   m_ObjectHideFlags: 0
