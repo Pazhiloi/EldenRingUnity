@@ -25,6 +25,11 @@ namespace MR
     NetworkVariableReadPermission.Everyone,
     NetworkVariableWritePermission.Owner
 );
+    [Header("Stats")]
+    public NetworkVariable<int> endurance = new NetworkVariable<int>(1, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
+    public NetworkVariable<int> currentStamina = new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
+    public NetworkVariable<int> maxStamina = new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
+
 
     protected virtual void Awake()
     {

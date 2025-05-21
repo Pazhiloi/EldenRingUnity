@@ -10,10 +10,13 @@ namespace MR
     public static PlayerUIManager instance;
     [Header("NETWORK JOIN")]
     [SerializeField] bool startGameAsClient;
+    [HideInInspector] public PlayerUIHudManager playerUIHudManager;
 
 
-    private void Awake() {
+    private void Awake()
+    {
       InitSingleton();
+      playerUIHudManager = GetComponentInChildren<PlayerUIHudManager>();
     }
 
     private void Start() {
